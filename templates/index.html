@@ -116,7 +116,7 @@
                 type: "POST",
                 url: "/order",
                 data: {name_give: name, num_give: num, address_give: address, pnum_give: pnum},
-                success: function (response) { // 성공하면
+                success: function (response) {
                     alert(response["msg"]);
                     window.location.reload()
                 }
